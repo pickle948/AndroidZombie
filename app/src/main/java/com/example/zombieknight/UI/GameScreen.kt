@@ -20,6 +20,6 @@ fun GameScreen(
     textures: TextureStore,
     font: GameFonts) {
 
-    var hud by remember{mutableStateOf(world.game.hud())}
+    var hud by remember{mutableStateOf(world.game.hud()) }
 
 }
